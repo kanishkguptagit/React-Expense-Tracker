@@ -34,6 +34,17 @@
     padding: 0.5rem;
     border-radius: 12px;
   }
+
+  .closediv {
+    color: white;
+    cursor: pointer;
+    margin-top: auto;
+    right: 0%;
+    padding: 12px 12px;
+    transform: translate(0%, -50%);
+  }
+  
+  .closediv:hover {background: #bbb;}
   
   @media (min-width: 580px) {
     .expense-item__description {
